@@ -1,0 +1,43 @@
+body {
+  background: #222222;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  overflow: hidden;
+}
+
+textarea {
+  background: #222222;
+  color: #EEEEEE;
+  display: inline-block;
+  width: 48%;
+  min-height: 250px;
+  font-size: 0.8em;
+  margin: 0 auto;
+  outline: none;
+  resize: none;
+  border: solid 1px #555555;
+}
+
+iframe {
+  background: #EEEEEE;
+  color: #EEEEEE;
+  width: 100%;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  bottom: 0;
+  position: relative;
+  border: none;
+}
+
+#container {
+  background: rgba(250, 250, 250);
+  color: #EEEEEE;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border: none;
+  border: solid 1px #555555;
+}
